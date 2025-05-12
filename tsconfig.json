@@ -1,0 +1,13 @@
+{
+    "extends": "./node_modules/pcf-scripts/tsconfig_base.json",
+    "compilerOptions": {
+        "typeRoots": ["node_modules/@types"],
+        "esModuleInterop": true,  // Enable esModuleInterop
+    },
+    "include": [
+    "./GenericLookup/src/LookupModal.ts",
+    "./GenericLookup/index.ts",
+    "./GenericLookup/generated/ManifestTypes.d.ts" // Include the file here
+  ]
+}
+// ./GenericLookup/generated/ManifestTypes.d.ts

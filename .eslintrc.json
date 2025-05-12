@@ -1,0 +1,9 @@
+{
+  "rules": {
+    "@typescript-eslint/no-explicit-any": "off", // Turn off 'any' restriction
+    "prefer-const": "off", // Disable 'prefer-const'
+   "@typescript-eslint/consistent-indexed-object-style": ["error", "record"], 
+    "@typescript-eslint/array-type": ["error", { "default": "array-simple" }], 
+    "@typescript-eslint/no-empty-interface": "off" 
+  }
+}
